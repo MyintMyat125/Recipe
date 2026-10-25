@@ -8,7 +8,7 @@ use App\Http\Requests\Recipe\UpdateRequest;
 use App\Http\Services\Recipe\RecipeService;
 use Exception;
 use Illuminate\Support\Facades\Log;
-
+use Illuminate\Http\Request;
 class RecipeApiController extends BaseApiController
 {
     private $recipeService;
